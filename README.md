@@ -1,4 +1,4 @@
-#  ⚡️ Fullstack Typescript Nest JS and Next JS ⚡️
+#  Test project fullstack
 
 ## Features
 
@@ -31,11 +31,3 @@ cd frontend/
 npm install
 npm run dev
 ```
-
-# Screenshot app
-![Screenshot](Screenshot/home.png)
-![Screenshot](Screenshot/signup.png)
-![Screenshot](Screenshot/sigin.png)
-![Screenshot](Screenshot/userProfile.png)
-![Screenshot](Screenshot/aboutpage.png)
-
