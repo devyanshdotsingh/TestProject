@@ -49,6 +49,8 @@ pipeline {
                 '''
             }
 
+        }
+        
         stage('Build Docker Image') {
             agent {
                 node {
