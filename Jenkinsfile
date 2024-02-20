@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from your Git repository
-                git branch: 'main', url: 'https://github.com/devyanshdotsingh/TestProject.git'
+                checkout scm 
             }
         }
         
