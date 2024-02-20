@@ -55,17 +55,3 @@ $ npm run start:prod
 ```bash
 Once the application is running you can visit [http://localhost:3000/api](http://localhost:3000/api) to see the Swagger interface.
 ```
-
-## Author
-
-👤 **Vinod**
-
-- Github: [@vinodnextcoder](https://github.com/vinodnextcoder)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-## License
-
-Release under the terms of [MIT](./LICENSE)
