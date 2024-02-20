@@ -22,12 +22,12 @@ pipeline {
         //     }
         // }
 
-        stage('OWASP Scan') {
-            steps {
-                // Perform OWASP scan
-                // Add your OWASP scan commands here
-            }
-        }
+        // stage('OWASP Scan') {
+        //     steps {
+        //         // Perform OWASP scan
+        //         // Add your OWASP scan commands here
+        //     }
+        // }
 
         stage('Build Docker Image') {
             steps {
