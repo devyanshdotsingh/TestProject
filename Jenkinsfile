@@ -30,6 +30,11 @@ pipeline {
         // }
 
         stage('Build Docker Image') {
+            agent {
+                node {
+                    label "linux"
+                }
+            }
             steps {
                  dir('backend') {
                     // Deploy
