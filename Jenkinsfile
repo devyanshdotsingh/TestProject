@@ -37,16 +37,16 @@ pipeline {
                 }
             }
         }
-    
+
     }
     
-    post {
+    // post {
         
-        success {
-            'Success'
-        }
-        failure {
-            'Failed'
-        }
-    }
+    //     success {
+    //         'Success'
+    //     }
+    //     failure {
+    //         'Failed'
+    //     }
+    // }
 }
