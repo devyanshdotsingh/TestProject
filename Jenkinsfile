@@ -2,12 +2,12 @@ pipeline {
     agent any
     
     stages {
-        // stage('Checkout') {
-        //     steps {
-        //         // Checkout code from your Git repository
-        //         checkout scm
-        //     }
-        // }
+        stage('Checkout') {
+            steps {
+                // Checkout code from your Git repository
+                git branch: 'main', changelog: false, credentialsId: 'CI_ssh', poll: false, url: 'git@github.com:devyanshdotsingh/TestProject.git'
+            }
+        }
         
         // stage('SonarQube Analysis') {
         //     steps {
