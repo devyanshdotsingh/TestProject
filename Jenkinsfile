@@ -31,13 +31,12 @@ pipeline {
 
         stage('Install Docker') {
             steps {
-                script{
-                sh echo admin | sudo -S apt-get update && sudo apt-get install -y docker-ce
+                script {
+                    sh "echo admin | sudo -S apt-get update && sudo apt-get install -y docker-ce"
                 }
-
             }
-
         }
+
 
         stage('Build Docker Image') {
             agent {
