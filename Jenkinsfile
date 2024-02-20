@@ -44,10 +44,11 @@ pipeline {
                     label "Agent_131u"
                 }
             }
+            
             steps {
                  dir('backend') {
                     // Deploy
-                    sh 'docker-compose up -d'
+                    sh 'docker-compose up d'
                 }
             }
         }
