@@ -44,7 +44,6 @@ pipeline {
                     label "Agent_131u"
                 }
             }
-            
             steps {
                  dir('backend') {
                     // Deploy
