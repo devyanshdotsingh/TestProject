@@ -1,5 +1,5 @@
 #  Test project fullstack
-
+.dot added
 ## Features
 
 1. Register
