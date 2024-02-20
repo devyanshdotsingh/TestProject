@@ -38,7 +38,8 @@ pipeline {
             steps {
                  dir('backend') {
                     // Deploy
-                    sh 'docker compose up '
+                    //sh 'docker compose up '
+                    sh 'docker --version'
                 }
             }
             
