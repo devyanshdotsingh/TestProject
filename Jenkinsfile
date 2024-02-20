@@ -2,12 +2,12 @@ pipeline {
     agent any
     
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout code from your Git repository
-                checkout scm 
-            }
-        }
+        // stage('Checkout') {
+        //     steps {
+        //         // Checkout code from your Git repository
+        //         checkout scm
+        //     }
+        // }
         
         // stage('SonarQube Analysis') {
         //     steps {
