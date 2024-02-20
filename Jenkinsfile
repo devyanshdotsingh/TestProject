@@ -8,6 +8,12 @@ pipeline {
                 git branch: 'main', changelog: false, credentialsId: 'CI_ssh', poll: false, url: 'git@github.com:devyanshdotsingh/TestProject.git'
             }
         }
+        stage('One more test stage')
+        {
+            steps{
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github_devyansh_creds', url: 'https://github.com/devyanshdotsingh/TestProject.git']])
+            }
+        }
         
         // stage('SonarQube Analysis') {
         //     steps {
