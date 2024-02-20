@@ -4,6 +4,15 @@ services:
   mongodb:
     image: mongo:latest
     environment:
-      - MONGODB_DATABASE="test"
+      - MONGODB_DATABASE=test
     ports:
-      - 27017:27017
+      - "27017:27017"
+
+  nodejs_app:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
