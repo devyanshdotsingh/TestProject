@@ -21,11 +21,6 @@ Welcome to the Next.js Authentication project, featuring Redux Toolkit for effic
 ## Getting Started
 
 ### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/pankajgurav005/nextjs-redux-toolkit-signin-signup.git
 Navigate to the project directory:
 
 bash
