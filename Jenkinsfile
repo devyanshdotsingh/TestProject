@@ -35,16 +35,13 @@ pipeline {
                     label "Agent_131u"
                 }
             }
-            // steps {
-            //      dir('backend') {
-            //         // Deploy
-            //         sh 'docker-compose up d'
-            //     }
-            // }
-            steps{
-                sh 'docker --version'
+            steps {
+                 dir('backend') {
+                    // Deploy
+                    sh 'docker-compose up d'
+                }
             }
-
+            
         }
 
     }
